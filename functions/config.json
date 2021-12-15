@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "name": "coolFunc",
+        "private": false
+    }
+]
