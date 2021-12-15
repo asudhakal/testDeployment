@@ -1,21 +1,10 @@
 [
     {
-        "route": "/newEndpoint",
+        "route": "/theFinalTest",
         "http_method": "POST",
-        "function_name": "coolFunc",
+        "function_name": "newFunction",
         "validation_method": "SECRET_AS_QUERY_PARAM",
-        "secret_name": "hi",
-        "respond_result": false,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/newest",
-        "http_method": "POST",
-        "function_name": "coolFunc",
-        "validation_method": "SECRET_AS_QUERY_PARAM",
-        "secret_name": "hi",
+        "secret_name": "hithere",
         "respond_result": false,
         "fetch_custom_user_data": false,
         "create_user_on_auth": false,
