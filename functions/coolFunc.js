@@ -1,20 +1,20 @@
 // This function is the endpoint's request handler.
-exports = function(payload, response) {
+exports = function({ query, headers, body}, response) {
     // Data can be extracted from the request as follows:
 
     // Query params, e.g. '?arg1=hello&arg2=world' => {arg1: "hello", arg2: "world"}
-    const {arg1, arg2} = payload.query;
+    const {arg1, arg2} = query;
 
     // Headers, e.g. {"Content-Type": ["application/json"]}
-    const contentTypes = payload.headers["Content-Type"];
+    const contentTypes = headers["Content-Type"];
 
     // Raw request body (if the client sent one).
     // This is a binary object that can be accessed as a string using .text()
-    const body = payload.body;
+    const reqBody = body;
 
     console.log("arg1, arg2: ", arg1, arg2);
     console.log("Content-Type:", JSON.stringify(contentTypes));
-    console.log("Request body:", body);
+    console.log("Request body:", reqBody);
 
     // You can use 'context' to interact with other Realm features.
     // Accessing a value:
