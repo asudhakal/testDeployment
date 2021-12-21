@@ -1,6 +1,6 @@
 [
     {
-        "route": "/endpoint12",
+        "route": "/endpoint",
         "http_method": "POST",
         "function_name": "newFunction",
         "validation_method": "SECRET_AS_QUERY_PARAM",
