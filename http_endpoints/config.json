@@ -11,7 +11,7 @@
         "disabled": false
     },
     {
-        "route": "/newEndpointHahaha",
+        "route": "/newEndpointHahahah",
         "http_method": "POST",
         "function_name": "coolFunc",
         "validation_method": "SECRET_AS_QUERY_PARAM",
