@@ -1,0 +1,6 @@
+{
+    "name": "mongodb",
+    "type": "http",
+    "config": {},
+    "version": 1
+}
